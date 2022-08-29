@@ -1,0 +1,15 @@
+#Quando criar o Arquivo Gemfile a letra G deve ser em caixa Alta
+
+source "https://rubygems.org" #Comando que fala aonde(site) que o Ruby vai baixar minhas gem's (flameworks)
+
+#instalar a gem bundler no cmd/cmder, com o comando "gem install bundler", ela é um flamework que gerencia as outras gem's no arquivo Gemfile
+#pelo cmd /cmder navegar até o diretíorio do gemfile e executar o comando "bundle install"
+#dica sempre salve o arquivo para executar o bundle install de qualquer gem
+#instalando gem's, quando for trabalhar travando versão retirar os caracteres "~>" do comando
+
+gem "capybara", "3.37" #flamework que para testes web
+gem "cucumber", "8.0" #inicializar um projeto com cucumber no console comando "cucumber --init"(cria diretorio features), flamework que transforma BDD em liguagem Ruby
+gem "selenium-webdriver", "4.1" # gem para integrar o capybara
+gem "rspec", "3.11"  #gem para validar informacoes
+gem "httparty", "0.20.0" #gem para consumir API
+gem "rufo", " 0.13.0" #gem para formatar e indentar
